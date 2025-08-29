@@ -1,0 +1,82 @@
+#color{
+    background-color: darkgreen;
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+#link1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    position : relative;
+    top: 5px;
+    left: 800px;
+
+}
+
+#link2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    position : relative;
+    left: 900px;
+    bottom: 18px;
+}
+
+#conbutton{
+    position: relative;
+
+    left: 1700px;
+    bottom: 50px;
+}
+
+
+#skills{
+    color:rgb(0, 102, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+    position:relative;
+    top: 250px;
+    left: 150px;
+}
+
+#table{
+    position: relative;
+    top: 250px;
+    left: 150px;
+}
+
+#footer{
+    position: relative;
+
+    background-color: darkgreen;
+    color: white;
+    top: 520px;
+}
+
+
+#copywrite1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+    top: 17px;
+    left: 300px;
+}
+
+#copywrite2{
+    font-family:Arial, Helvetica, sans-serif;
+
+    position: relative;
+    left: 1300px;
+    bottom: 15px;
+
+}
