@@ -1,0 +1,38 @@
+#color{
+    background-color: darkgreen;
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color:white;
+
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+#link1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    position : relative;
+    left: 800px;
+
+}
+
+#link2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    position : relative;
+    left: 900px;
+    bottom: 23px;
+}
+
+#conbutton{
+    position: relative;
+
+    left: 1700px;
+    bottom: 50px;
+}
