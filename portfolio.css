@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    padding: 0;
+    background:linear-gradient(135deg, #344699 0%, #764ba2 100%);
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-style: italic;
+
+}
+.navigation{
+    background-color: rgb(14, 14, 58);
+    text-align: center;
+    font-size: large;
+    position: fixed;
+    max-width: 100%;
+    padding: 10px 10px; /*top-bottom left-right*/
+    width: 100%;
+    
+}
+#navalign{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    flex-direction: row;
+}
+.navigation a {
+    text-decoration: none;        /*to hide the underline*/
+    justify-content: space-evenly;
+
+}
+/*Using Pseudo Classes to decorate link*/
+.navigation a:link{
+    color:rgb(194, 185, 185);
+}
+.navigation a:visited{
+    color:rgb(194, 170, 218);
+}
+.navigation a:hover{
+    color:cadetblue;
+}
+.navigation a:active{
+    color:bisque;
+}
+#mySection{
+    position: relative;
+    overflow: hidden;
+    top: 150px;
+    align-items: center;
+    
+}
+span{
+    color: red;
+}
+#image{
+    height: 230px;
+    width: 250px;
+    clip-path: circle();
+
+    position:relative;
+
+    transition-duration: 2s;
+}
+#image:hover{
+    transform: scale(0.8);
+}
+
+.container{
+    display: flex;
+    gap:30px;
+    justify-content: space-evenly;
+}
+.item{
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#button{
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(172, 73, 73);
+    color:white;
+    font-style: italic;
+    font-size: 12px;
+    
+}
+#button:hover{
+    background-color:rgb(165, 25, 25);
+}
+
+#section2{
+    position:relative;
+    overflow: hidden;
+    top: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:30px;
+
+    
+}
+#image2{
+    height: 230px;
+    width: 250px;
+    align-items: center;
+    clip-path: circle();
+
+    transition-duration: 2s;
+}
+#image2:hover{
+    transform: scale(0.8);
+}
+
+.item2{
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#aboutme{
+    align-items: center;
+    font-size: 50px;
+}
+
+#section3{
+    position:relative;
+    overflow: hidden;
+    top: 350px;
+}
+#skill-section{
+    text-align: center;
+}
+.skills{
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(174, 171, 219);
+    color:rgb(0, 0, 0);
+
+}
+.skills:hover{
+    color:rgb(24, 16, 16);
+    font-style: italic;
+    background-color: rgb(129, 57, 129);
+}
+.scction3{
+    display: flex;
+    justify-content: center;
+}
+
+.section4 {
+  position:relative;
+  top: 450px;
+  display: flex;  
+
+  justify-content: center; 
+  align-items: left;    
+  gap: 20px; 
+  
+  overflow: hidden;
+}
+
+.right{
+
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+.right1{
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(15, 15, 15);
+    text-align: center;
+    justify-content: right;
+    
+}
+.right1:hover{
+    color: rgb(240, 235, 235);
+    background-color: #803d80;
+}
+.right2{
+    background-color: rgb(177, 24, 24);
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;
+    color:white;
+}
+.right2:hover{
+    color: black;
+    background-color: rgb(223, 75, 75);
+}
+#section5{
+    position:relative;
+    top: 500px;
+    text-align: center;
+    background-color: rgb(14, 14, 58);
+    padding: 15px;
+    color:rgb(194, 185, 185);
+}

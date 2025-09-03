@@ -3,67 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Description" content="Figma task back to real" />
+    <meta name="Description" content="My Personal Portfolio" />
     <meta http-equiv="refresh" content="73000" />
+    <link rel="stylesheet" href="portfolio.css" />
     <title>Arif Hassan Portfolio</title>
-    <link rel="stylesheet" href="Home.css" />
   </head>
   <body>
-    <!--header name, links and contact-->
-    <header id="color">
-      <div id="header">
-        <p style="font-style: italic;">ARIF</p>
-      </div>
-
-      <div id="link1">
-        <a href="index.html" target="_self"><font color="white">Home</font></a>
-      </div>
-
-      <div id="link2">
-        <a href="skills.html" target="_self"
-          ><font color="white">Skills</font></a
-        >
-      </div>
-
-      <div id="conbutton">
-        <a href="contact.html">
-          <button
-            style="
-              background-color: white;
-              color: black;
-              width: 150px;
-              height: 50px;
-            "
-          >
-            Contact
-          </button>
-        </a>
+    <header id="myHeader">
+      <div class="navigation">
+        <p id="navalign">
+          <a href="#myH1">Home</a> | <a href="#section2">About</a> |
+          <a href="#section3">Skills</a> | <a href="#email"> Contact</a>
+        </p>
       </div>
     </header>
 
-    <!--main introduction  of the person-->
-    <div id="right">
-      <img
-        src="image.png"
-        alt="Arif"
-        title="Arif Hassan"
-        height="400"
-        width="400"
-      />
-    </div>
+    <!--section 1-->
+    <section id="mySection">
+      <div class="container">
+        <div id="info">
+          <h1 id="myH1" class="item">My Name is Ar<span>if</span></h1>
+          <br />
+          <p id="myP1" class="item">
+            A Passionate Software Engineer from Bangladesh!
+          </p>
+          <br />
+          <p id="myP2" class="item">
+            I create beautiful and functional websites using HTML, CSS, and
+            JavaScript.
+          </p>
+          <br />
+          <a href="#info2">
+            <button type="button" id="button" title="Learn More">
+              Learn More About Me
+            </button>
+          </a>
+        </div>
+        <div id="image">
+          <img src="Arif.png" alt="Arif photo" title="Arif Hassan" id="arif" />
+        </div>
+      </div>
+    </section>
+    <br />
 
-    <div id="position">
-      <p id="left">
-        Hello,<br />
-        My name is<br />Arif Hassan
-      </p>
-      <p id="bottom">I am based in Cumilla, Bangladesh</p>
-    </div>
+    <!--section 2-->
+    <section id="section2">
+      <h2><center>About Me</center></h2>
+      <br />
+      <div class="container2">
+        <div id="image2">
+          <img src="Arif.png" alt="Arif photo" title="Arif Hassan" id="arif" />
+        </div>
+        <div id="info2">
+          <p id="myp3" class="item2">
+            Hello! I am Arif. A Passionate Software Engineer with a love for creating
+            beautiful and functional websites. I<br />
+            have experience in HTML, CSS, and JavaScript, and I'm always eager
+            to learn new technologies.
+          </p>
+          <br />
+          <p id="myp4" class="item2">
+            When I'm not coding, I enjoy reading, hiking, and exploring new
+            coffee shops. I believe in writing<br />clean, efficient code and
+            creating user-friendly experiences.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    <!--footer of the  copyright-->
-    <footer id="footer">
-      <p id="copywrite1">Created with 🤍 by Arif</p>
-      <p id="copywrite2">Copywrite &copy; 2025</p>
-    </footer>
+    <!--section 3-->
+    <section id="section3">
+      <div class="container3">
+        <h2><center>Experience & Skills</center></h2>
+        <br />
+        <div class="box2">
+          <center><input id="time" type="text" placeholder="2023-Present" class="time" /></center>
+      </div><br>
+      <div id="skill-section">
+        <h3><center>My Skills</center></h3>
+        <br />
+        <input type="text" placeholder="HTML" class="skills" />
+        <input type="text" placeholder="CSS" class="skills" />
+        <input type="text" placeholder="JavaScript" class="skills" />
+        <input type="text" placeholder="C" class="skills" /><br />
+        <input type="text" placeholder="C++" class="skills" />
+        <input type="text" placeholder="PYTHON" class="skills" />
+      </div><br><br>
+      <h2 id="work"><center>Let's Work Together</center></h2>
+    </section>
+
+    <!--section4-->
+    <section class="section4">
+
+      <div class="left">
+      <div id="email" class="left1">
+        <h4>Email</h4>
+        <p  class="left1">📧 messege@arif.me</p>
+        <h4>Phone</h4>
+        <p  class="left1">📱 +880123456789</p>
+        <h4  class="left1">Location</h4>
+        <p  class="left1">📌 Cumilla, BD</p>
+      </div>
+      </div>
+
+      <div class="right">
+        <input type="text" title="input" placeholder=" Your Name" class="right1"><br>
+        <input type="text" title="input" placeholder="Your Email" class="right1"><br>
+        <input type="text" title="input" placeholder="Subject" class="right1"><br>
+        <input type="text" title="input" placeholder="Tell me about Your project" class="right1"><br>
+        <input type="text" title="input" placeholder="Send" class="right2"><br>
+      </div>
+    </section>
+
+<!--footer-->
+<section id="section5">
+  <div id="footer">
+    <p>&copy; 2025 Ar<span id="if">if</span>. All rights reserved</p>
+  </div>
+</section>
   </body>
 </html>
