@@ -29,7 +29,6 @@ body{
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
-    margin-left: -10pc;
 }
 #navalign{
     display: flex;
@@ -187,7 +186,10 @@ span{
     display: flex;
     justify-content: center;
 }
-
+.contact-me{
+    font-size: 25px;
+    font-weight: bold;
+}
 .section4 {
   position:relative;
   top: 450px;
@@ -199,8 +201,50 @@ span{
   
   overflow: hidden;
 }
+#work{
+    margin-bottom: 20px;
+}
+
+.left{
+    margin-top: 90px;
+}
+.left1{
+    font-size: 15px;
+}
+
+.contacts {
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.forms {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.forms input,
+.forms textarea {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #344699 0%, #764ba2 100%);
+    border-style: solid;
+    border-radius: 8px;
+    font-style: italic;
+}
 
 
+.button4 {
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.button4:hover{
+    background-color: rgb(170, 139, 139);
+}
 
 #section5{
     position:relative;
