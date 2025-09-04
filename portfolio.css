@@ -24,6 +24,13 @@ body{
     width: 100%;
     z-index: 999;
 }
+#name{
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: -10pc;
+}
 #navalign{
     display: flex;
     justify-content: center;
@@ -35,6 +42,7 @@ body{
     justify-content: space-evenly;
 
 }
+
 /*Using Pseudo Classes to decorate link*/
 .navigation a:link{
     color:rgb(194, 185, 185);
@@ -136,23 +144,45 @@ span{
     overflow: hidden;
     top: 350px;
 }
+.box2{
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    align-items: center;
+    
+}
 #skill-section{
     text-align: center;
 }
-.skills{
-    height: 30px;
-    width: 75px;
-    text-align: center;
-    border-radius: 15px;
-    background-color: rgb(174, 171, 219);
-    color:rgb(0, 0, 0);
 
+.all-skills {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: auto;
 }
-.skills:hover{
-    color:rgb(24, 16, 16);
-    font-style: italic;
-    background-color: rgb(129, 57, 129);
+
+.all-skills div {
+  background: #0c0d4939;
+  border: 2px solid #161110;
+  display: flex;
+  height: 15px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  font-weight: 500;
+  border-radius: 150px;
 }
+.all-skills div:hover {
+  background: #39207e;
+}
+
+
 .scction3{
     display: flex;
     justify-content: center;
@@ -163,44 +193,15 @@ span{
   top: 450px;
   display: flex;  
 
-  justify-content: center; 
+  justify-content: space-evenly; 
   align-items: left;    
   gap: 20px; 
   
   overflow: hidden;
 }
 
-.right{
 
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-}
-.right1{
-    height: 30px;
-    width: 160px;
-    border-radius: 10px;
-    background-color: rgb(20, 19, 19);
-    color: rgb(15, 15, 15);
-    text-align: center;
-    justify-content: right;
-    
-}
-.right1:hover{
-    color: rgb(240, 235, 235);
-    background-color: #803d80;
-}
-.right2{
-    background-color: rgb(177, 24, 24);
-    border-radius: 10px;
-    height: 30px;
-    width: 160px;
-    color:white;
-}
-.right2:hover{
-    color: black;
-    background-color: rgb(223, 75, 75);
-}
+
 #section5{
     position:relative;
     top: 500px;
@@ -211,59 +212,4 @@ span{
 }
 .wrapper{
     z-index: 0;
-}
-
-/*Responsive design*/
-@media only screen and (max-width: 600px) {
-  .container,
-  .container2,
-  .section4 {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  #image, #image2 {
-    width: 150px;
-    height: 150px;
-  }
-
-  .skills {
-    width: 60px;
-    margin: 5px;
-  }
-
-  #button {
-    width: 100%;
-  }
-
-  .right1, .right2 {
-    width: 100%;
-  }
-
-  #navalign {
-    flex-direction: column;
-    gap: 15px;
-  }
-}
-
-/* Tablet */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  #image, #image2 {
-    width: 180px;
-    height: 180px;
-  }
-
-  .skills {
-    width: 70px;
-  }
-
-  .right1, .right2 {
-    width: 200px;
-  }
-}
-
-/* Desktop */
-@media only screen and (min-width: 1025px) {
-
 }

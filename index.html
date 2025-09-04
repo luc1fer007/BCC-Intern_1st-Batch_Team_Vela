@@ -10,118 +10,148 @@
   </head>
   <body>
     <section class="wrapper">
-    <header id="myHeader">
-      <div class="navigation">
-        <p id="navalign">
-          <a href="#myH1">Home</a> | <a href="#section2">About</a> |
-          <a href="#section3">Skills</a> | <a href="#email"> Contact</a>
-        </p>
-      </div>
-    </header>
-
-    <!--section 1-->
-    <section id="mySection">
-      <div class="container">
-        <div id="info">
-          <h1 id="myH1" class="item">My Name is Ar<span>if</span></h1>
-          <br />
-          <p id="myP1" class="item">
-            A Passionate Software Engineer from Bangladesh!
+      <header id="myHeader">
+        <div class="navigation">
+          <p id="navalign">
+            <a href="#myH1">Home</a> | <a href="#section2">About</a> |
+            <a href="#section3">Skills</a> | <a href="#email"> Contact</a>
           </p>
-          <br />
-          <p id="myP2" class="item">
-            I create beautiful and functional websites using HTML, CSS, and
-            JavaScript.
-          </p>
-          <br />
-          <a href="#info2">
-            <button type="button" id="button" title="Learn More">
-              Learn More About Me
-            </button>
-          </a>
         </div>
-        <div id="image">
-          <img src="Arif.png" alt="Arif photo" title="Arif Hassan" id="arif" />
-        </div>
-      </div>
-    </section>
-    <br />
+      </header>
 
-    <!--section 2-->
-    <section id="section2">
-      <h2><center>About Me</center></h2>
+      <!--section 1-->
+      <section id="mySection">
+        <div class="container">
+          <div id="info">
+            <h1>My Name is Ar<span>if</span></h1>
+            <br />
+            <p id="myP1" class="item">
+              A Passionate Software Engineer from Bangladesh!
+            </p>
+            <br />
+            <p id="myP2" class="item">
+              I create beautiful and functional websites using HTML, CSS, and
+              JavaScript.
+            </p>
+            <br />
+            <a href="#info2">
+              <button type="button" id="button" title="Learn More">
+                Learn More About Me
+              </button>
+            </a>
+          </div>
+          <div id="image">
+            <img
+              src="Arif.png"
+              alt="Arif photo"
+              title="Arif Hassan"
+              id="arif"
+            />
+          </div>
+        </div>
+      </section>
       <br />
-      <div class="container2">
-        <div id="image2">
-          <img src="Arif.png" alt="Arif photo" title="Arif Hassan" id="arif" />
+
+      <!--section 2-->
+      <section id="section2">
+        <h2><center>About Me</center></h2>
+        <br />
+        <div class="container2">
+          <div id="image2">
+            <img
+              src="Arif.png"
+              alt="Arif photo"
+              title="Arif Hassan"
+              id="arif"
+            />
+          </div>
+          <div id="info2">
+            <p id="myp3" class="item2">
+              Hello! I am Arif. A Passionate Software Engineer with a love for
+              creating beautiful and functional websites. I<br />
+              have experience in HTML, CSS, and JavaScript, and I'm always eager
+              to learn new technologies.
+            </p>
+            <br />
+            <p id="myp4" class="item2">
+              When I'm not coding, I enjoy reading, hiking, and exploring new
+              coffee shops. I believe in writing<br />clean, efficient code and
+              creating user-friendly experiences.
+            </p>
+          </div>
         </div>
-        <div id="info2">
-          <p id="myp3" class="item2">
-            Hello! I am Arif. A Passionate Software Engineer with a love for creating
-            beautiful and functional websites. I<br />
-            have experience in HTML, CSS, and JavaScript, and I'm always eager
-            to learn new technologies.
-          </p>
+      </section>
+
+      <!--section 3-->
+      <section id="section3">
+        <div class="container3">
+          <h2><center>Experience & Skills</center></h2>
           <br />
-          <p id="myp4" class="item2">
-            When I'm not coding, I enjoy reading, hiking, and exploring new
-            coffee shops. I believe in writing<br />clean, efficient code and
-            creating user-friendly experiences.
-          </p>
+          <div class="box2">
+            <p><div>Hackathon<br>2024</div>
+            <h1></h1>
+          </div>
+          <br /><br><br>
+          <div id="skill-section">
+            <h2><center>My Skills</center></h2>
+            <br />
+            <div class="all-skills">
+              <div><p>HTML</p></div>
+              <div><p>CSS</p></div>
+              <div><p>JavaScript</p></div>
+              <div><p>C++</p></div>
+              <div><p>C</p></div>
+              <div><p>PYTHON</p></div>
+            </div>
+          </div>
         </div>
-      </div>
+        <br /><br /><br>
+        <div class="contact-me"><center>Contact Me</center></div>
+      </section>
+
+      
+      <!--section4-->
+      <section class="section4">
+        <div class="left">
+          <h2 id="work">Let's Work Together</h2>
+          <div id="email" class="left1">
+            <h3>Email</h3>
+            <p class="left1">📧 arifulhassanjoy02@gmail.com</p>
+            <h3>Phone</h3>
+            <p class="left1">📱 +8801788452004</p>
+            <h3>Location</h3>
+            <p class="left1">📌 Cumilla, BD</p>
+          </div>
+        </div>
+
+        <div class="contacts">
+          <form>
+            <div class="forms">
+              <label for="name" class="right1"><br><b>Name:</b><br></label>
+              <input type="text" id="name" name="name"placeholder="Arif" required>
+            </div>
+            <div class="forms">
+              <label for="email"><br><b>Email:</b></label>
+              <input type="email" id="email" name="email" placeholder="arifulhassanjoy02@gmail.com" required>
+            </div>
+            <div class="forms">
+              <label for="message"><b><br>Message:</b></label>
+              <textarea id="message" name="message" rows="3" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="button4">Send</button>
+          </form>
+        </div>
+        </div>
+
+      </section>
+
+
+      <!--footer-->
+      <section id="section5">
+        <div id="footer">
+          <p>&copy; 2025 Ar<span id="if">if</span>. All rights reserved</p>
+        </div>
+      </section>
     </section>
-
-    <!--section 3-->
-    <section id="section3">
-      <div class="container3">
-        <h2><center>Experience & Skills</center></h2>
-        <br />
-        <div class="box2">
-          <center><input id="time" type="text" placeholder="2023-Present" class="time" /></center>
-      </div><br>
-      <div id="skill-section">
-        <h3><center>My Skills</center></h3>
-        <br />
-        <input type="text" placeholder="HTML" class="skills" />
-        <input type="text" placeholder="CSS" class="skills" />
-        <input type="text" placeholder="JavaScript" class="skills" />
-        <input type="text" placeholder="C" class="skills" /><br />
-        <input type="text" placeholder="C++" class="skills" />
-        <input type="text" placeholder="PYTHON" class="skills" />
-      </div><br><br>
-      <h2 id="work"><center>Let's Work Together</center></h2>
-    </section>
-
-    <!--section4-->
-    <section class="section4">
-
-      <div class="left">
-      <div id="email" class="left1">
-        <h4>Email</h4>
-        <p  class="left1">📧 messege@arif.me</p>
-        <h4>Phone</h4>
-        <p  class="left1">📱 +880123456789</p>
-        <h4  class="left1">Location</h4>
-        <p  class="left1">📌 Cumilla, BD</p>
-      </div>
-      </div>
-
-      <div class="right">
-        <input type="text" title="input" placeholder=" Your Name" class="right1"><br>
-        <input type="text" title="input" placeholder="Your Email" class="right1"><br>
-        <input type="text" title="input" placeholder="Subject" class="right1"><br>
-        <input type="text" title="input" placeholder="Tell me about Your project" class="right1"><br>
-        <input type="text" title="input" placeholder="Send" class="right2"><br>
-      </div>
-    </section>
-
-<!--footer-->
-<section id="section5">
-  <div id="footer">
-    <p>&copy; 2025 Ar<span id="if">if</span>. All rights reserved</p>
-  </div>
-</section>
-</section>
   </body>
 </html>
