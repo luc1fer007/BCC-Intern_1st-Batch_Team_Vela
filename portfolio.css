@@ -5,7 +5,7 @@
 }
 body{
     margin: auto;
-    background: antiquewhite;
+    background: white;
     
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
 }
 
 .navigation{
-    background-color: rgb(14, 14, 58);
+    background-color: rgb(44, 75, 85);
     text-align: center;
     font-size: large;
     position: fixed;
@@ -23,12 +23,7 @@ body{
     width: 100%;
     z-index: 999;
 }
-#name{
-    color:white;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-}
+
 #navalign{
     display: flex;
     justify-content: center;
@@ -42,13 +37,13 @@ body{
 }
 
 .navigation a:link{
-    color:rgb(194, 185, 185);
+    color:rgb(0, 0, 0);
 }
 .navigation a:visited{
-    color:rgb(194, 170, 218);
+    color:rgb(255, 255, 255);
 }
 .navigation a:hover{
-    color:cadetblue;
+    color:rgb(0, 247, 255);
 }
 .navigation a:active{
     color:bisque;
@@ -154,7 +149,7 @@ span{
 
 .projects{
     padding: 30px;
-    background-color: antiquewhite;
+    background-color: white;
 
 }
 .projects h2{
@@ -167,7 +162,7 @@ span{
     gap: 20px;
 }
 .project-box{
-    background: white;
+    background: rgb(250, 247, 247);
     padding: 20px;
     border-radius: 10px;
 }
@@ -197,20 +192,21 @@ span{
 }
 
 .all-skills div {
-  background-color:rgb(38, 36, 66);
-  border: 2px solid #161110;
+  background-color:rgb(123, 158, 170);
+  border: 2px solid #000000;
   display: flex;
   height: 15px;
   width: 30px;
   justify-content: center;
   align-items: center;
   padding: 40px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   border-radius: 150px;
 }
 .all-skills div:hover {
-  background: #000000;
+  background: rgb(94, 97, 97);
+  color:white;
 }
 
 
@@ -224,7 +220,7 @@ span{
 }
 .section4 {
   position:relative;
-  top: 450px;
+  top: 380px;
   display: flex;  
 
   justify-content: space-evenly; 
@@ -234,7 +230,9 @@ span{
   overflow: hidden;
 }
 #work{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .left{
@@ -267,7 +265,7 @@ span{
 
 .button4 {
     width: 100%;
-    background: rgb(52, 46, 97);
+    background: rgb(99, 14, 14);
     color: white;
     border: none;
     padding: 15px;
@@ -275,16 +273,16 @@ span{
 }
 
 .button4:hover{
-    background-color: rgb(29, 28, 70);
+    background-color: rgb(214, 16, 16);
 }
 
 #section5{
     position:relative;
     top: 500px;
     text-align: center;
-    background-color: rgb(14, 14, 58);
+    background-color: rgb(44, 75, 85);
     padding: 15px; 
-    color:rgb(194, 185, 185);
+    color:rgb(255, 255, 255);
 }
 .wrapper{
     z-index: 0;
