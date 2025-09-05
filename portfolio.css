@@ -5,7 +5,6 @@
 }
 body{
     margin: auto;
-    padding: 0;
     background: antiquewhite;
     
     background-attachment: fixed;
@@ -20,7 +19,7 @@ body{
     font-size: large;
     position: fixed;
     max-width: 100%;
-    padding: 10px 10px; /*top-bottom left-right*/
+    padding: 10px 10px; 
     width: 100%;
     z-index: 999;
 }
@@ -37,12 +36,11 @@ body{
     flex-direction: row;
 }
 .navigation a {
-    text-decoration: none;        /*to hide the underline*/
+    text-decoration: none;        
     justify-content: space-evenly;
 
 }
 
-/*Using Pseudo Classes to decorate link*/
 .navigation a:link{
     color:rgb(194, 185, 185);
 }
@@ -86,7 +84,7 @@ span{
 }
 .item{
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 18px;
 }
 #button{
     border-radius: 5px;
@@ -131,7 +129,7 @@ span{
 
 .item2{
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 18px;
 }
 #aboutme{
     align-items: center;
