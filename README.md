@@ -7,7 +7,7 @@ A responsive and modern personal portfolio website created by using **HTML, CSS*
  - Responsive Design
  - Smooth Navigation
  - About me, Contact section
- - Form with Email support
+ - Form with necessary options
 
 ## Tools And Language
 - **VS CODE**
